@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Andy's Portfolio</title>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,200' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Favicon for site (http://stackoverflow.com/questions/23849377/html-5-favicon-support) -->
+	<link rel="icon" href="favicon.png">
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- Primay Header -->
+		<header class="pri-header">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 ">
+					<img class="img-responsive center-img" src="images/andajalulogo.png" alt="Logo">
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 center-txt text-uppercase">
+					<h1>Keith ‘Andy’ Pell</h1>
+					<h3>Autotelic</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+		</header>
+		<!-- End of Primary Header -->
+		<aside class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<figure class="img-pos fp-img">
+					<figcaption class="row bny-caption">
+						<div class="col-sm-12 col-xs-12">
+							<p class="small text-uppercase">
+								The geeky binary has an actual translation:
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1">
+								<p>
+									My name is Keith Pell, but I've always gone by my nickname, Andy.
+									I'm looking forward to completing the Udacity Front End Developer Nanodegree.
+								</p>
+							</div>
+						</div>
+					</figcaption>
+					<img class="img-responsive" src="images/binarypic.png" alt="Binary Text">
+				</figure>
+			</div>
+		</aside>
+		<!-- Featured Work Section -->
+		<section>
+			<header class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 div-pad-btm">
+					<h2 class="center-txt text-muted">Featured Work</h2>
+				</div>
+			</header>
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<figure class="img-pos">
+						<img class="img-responsive img-work" src="images/frozen.jpg" alt="Prairie Winter" data-toggle="modal" data-target="#proj-1">
+						<figcaption class="img-wk-txt work-caption">
+							Prairie Winter
+						</figcaption>
+					</figure>
+					<h3>Project 1</h3>
+					<p><a href="#">Project 1 Information</a></p>
+					<hr class="no-hr">
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<figure class="img-pos">
+						<img class="img-responsive img-work" src="images/driftwood.jpg" alt="Driftwood Beach"  data-toggle="modal" data-target="#proj-2">
+						<figcaption class="img-wk-txt work-caption">
+							Driftwood Beach
+						</figcaption>
+					</figure>
+					<h3>Project 2</h3>
+					<p><a href="#">Project 2 Information</a></p>
+					<hr class="no-hr">
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<figure class="img-pos">
+						<img class="img-responsive img-work" src="images/snowshed.jpg" alt="Little Green Barn" data-toggle="modal" data-target="#proj-3">
+						<figcaption class="img-wk-txt work-caption">
+							Little Green Barn
+						</figcaption>
+					</figure>
+					<h3>Project 3</h3>
+					<p><a href="#">Project 3 Information</a></p>
+				</div>
+			</div>
+		</section>
+		<!-- End of Featured Work -->
+		<!-- Page Footer -->
+		<footer class="text-right">
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<small>©2014 Keith A. Pell</small>
+		</footer>
+	</div>
+	<!-- End of Container Div -->
+	<!-- Modals for Projects -->
+	<div class="modal" id="proj-1" tabindex="-1" role="dialog" aria-labelledby="proj-1-lbl" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content mod-background">
+				<div class="modal-header">
+					<h3 class="modal-title" id="proj-1-lbl">Frozen Prairie</h3>
+					<hr>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive mod-pic" src="images/frozen.jpg" alt="Prairie Winter">
+					<p>
+						This is nearly two miles of open expanse after almost 22" of snow, 50mph winds,
+						and -20°F. It looked as if ocean waves froze in place.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<hr>
+					<button type="button" class="btn mod-btn" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="proj-2" tabindex="-1" role="dialog" aria-labelledby="proj-2-lbl" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content mod-background">
+				<div class="modal-header">
+					<h3 class="modal-title" id="proj-2-lbl">Driftwood Beach</h3>
+					<hr>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive mod-pic" src="images/driftwood.jpg" alt="Driftwood Beach">
+					<p>
+						Jekyll Island, Georgia has an amazing beach where entire dead trees wash ashore as driftwood.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<hr>
+					<button type="button" class="btn mod-btn" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="proj-3" tabindex="-1" role="dialog" aria-labelledby="proj-3-lbl" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content mod-background">
+				<div class="modal-header">
+					<h3 class="modal-title" id="proj-3-lbl">Little Green Barn</h3>
+					<hr>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive mod-pic" src="images/snowshed.jpg" alt="Little Green Barn">
+					<p>
+						A little green barn stands in pretty contrast to a grayscale winter back drop.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<hr>
+					<button type="button" class="btn mod-btn" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
